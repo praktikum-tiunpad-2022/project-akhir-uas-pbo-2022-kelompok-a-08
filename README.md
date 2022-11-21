@@ -22,23 +22,12 @@ Tic-tac-toe adalah permainan untuk dua pemain, X dan O, yang bergiliran menandai
    - Inisiasikan JavaFX dan Gradle
    - Inisiasikan ukuran dan komponen window
    - Inisiasikan board pada window
-   - Membuat class User
 
 - **[Sprint 2](changelog/sprint-2.md) - (22/11/2021 - 28/11/2021)** 
-   - Membuat class Player
-   - Membuat class AI
-   - Membuat logic memilih board untuk User
-   - Membuat logic merubah tanda setelah User lain memilih
-   - Membuat logic kemenangan
-   - Merapihkan UI board
+   -
    
 - **[Sprint 3](changelog/sprint-3.md) - (29/11/2021 - 05/12/2021)** 
-   - Menambahkan UML fix
-   - Melakukan bug fixing
-   - Membuat menu utama
-   - Membuat logic menginput username
-   - Membuat logic leaderboard
-   - Membuat leaderboard
+   - 
 
 ## Running The App
 
