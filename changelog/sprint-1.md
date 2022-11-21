@@ -11,15 +11,15 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 3             | 3             |
+| 3             | 0             |
 
 ## Sprint 1 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Inisiasikan JavaFx dan Gradle | Adinda Salsabila | DONE |
-| 1.2 | Inisiasikan ukuran dan komponen window | Adinda Salsabila | DONE |
-| 1.3 | Inisiasikan board pada game | Felicia Natania Lingga | DONE |
+| 1.1 | Inisiasikan JavaFx dan Gradle | Aliya Rahmania | FAILED |
+| 1.2 | Inisiasikan ukuran dan komponen window | Adinda Salsabila | FAILED |
+| 1.3 | Inisiasikan board pada game | Felicia Natania Lingga | FAILED |
 
 ## Retrospective 
 
@@ -30,6 +30,9 @@ Belum mengimplementasikan penggunaan project board untuk manajemen sprint
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
+| 1.1 | Inisiasikan JavaFx dan Gradle | Aliya Rahmania | 
+| 1.2 | Inisiasikan ukuran dan komponen window | Adinda Salsabila |
+| 1.3 | Inisiasikan board pada game | Felicia Natania Lingga | 
 | 2.1 | Membuat class Player | Aliya Rahmania | 
 | 2.2 | Membuat class AI | Felicia Natania | 
 | 2.3 | Membuat logic memilih board untuk User | Felicia Natania |
