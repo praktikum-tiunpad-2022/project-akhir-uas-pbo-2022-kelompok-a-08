@@ -11,7 +11,7 @@
 ## Sprint Backlog Keseluruhan 
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Inisiasikan JavaFx dan Gradle | Adinda Salsabila |
+| 1.1 | Inisiasikan JavaFx dan Gradle | Aliya Rahmania |
 | 1.2 | Inisiasikan ukuran dan komponen window | Adinda Salsabila |
 | 1.3 | Inisiasikan board pada game | Felicia Natania Lingga |
 | 2.1 | Membuat class Player | Aliya Rahmania | 
