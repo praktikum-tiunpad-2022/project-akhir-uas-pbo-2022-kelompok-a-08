@@ -35,5 +35,8 @@ Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian t
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 3.1 | Preparing the x | Jane Doe | 
-| 3.2 | Make the x | John Doe | 
+| 3.1 | Membuat logic memilih board untuk User | Felicia Natania | 
+| 3.2 | Membuat logic kemenangan | Adinda Salsabila | 
+| 3.3 | Membuat logic menginput username | Felicia Natania |
+| 3.4 | Membuat logic leaderboard | Aliya Rahmania |
+| 3.5 | Membuat leaderboard | Aliya Rahmania |
