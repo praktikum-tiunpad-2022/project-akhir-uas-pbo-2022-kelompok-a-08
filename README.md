@@ -4,7 +4,6 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Please create a description for this project here**
 Tic-tac-toe adalah permainan untuk dua pemain, X dan O, yang bergiliran menandai ruang dalam grid 3 × 3. Pemain yang berhasil menempatkan tiga tanda mereka di baris horisontal, vertikal, atau diagonal memenangkan pertandingan. Biasanya permainan ini dilakukan dengan menggunakan dengan kertas dan alat tulis, namun permainan ini juga dapat diimplementasikan secara digital dengan object-oriented programming
 
 ## Credits
@@ -24,7 +23,14 @@ Tic-tac-toe adalah permainan untuk dua pemain, X dan O, yang bergiliran menandai
    - Inisiasikan board pada window
 
 - **[Sprint 2](changelog/sprint-2.md) - (22/11/2021 - 28/11/2021)** 
-   -
+   - Membuat class Player
+   - Membuat class AI 
+   - Membuat logic memilih board untuk User
+   - Membuat logic merubah tanda setelah User lain memilih
+   - Membuat logic kemenangan
+   - Membuat logic menginput username
+   - Membuat logic leaderboard
+   - Membuat leaderboard
    
 - **[Sprint 3](changelog/sprint-3.md) - (29/11/2021 - 05/12/2021)** 
    - 
