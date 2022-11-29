@@ -1,12 +1,12 @@
 # Scrum Report (Sprint 3)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 29//11/2022 to 05/12/2022
 
-## Team (Insert your name)
+## Team Project-UAS
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810210005  | Aliya Rahmania |
+| 140810210007  | Felicia Natania Lingga |
+| 140810210017  | Adinda Salsabila |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
@@ -17,8 +17,14 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 3.1 | Preparing the x | Jane Doe | DONE |
-| 3.2 | Make the x | John Doe | FAILED |
+| 2.3 | Membuat logic memilih board untuk User | Felicia Natania | 
+| 2.5 | Membuat logic kemenangan | Adinda Salsabila | 
+| 2.6 | Membuat logic menginput username | Felicia Natania |
+| 2.7 | Membuat logic leaderboard | Aliya Rahmania |
+| 2.8 | Membuat leaderboard | Aliya Rahmania |
+| 3.1 | Merapikan UI Board | Adinda Salsabila |
+| 3.2 | Membuat UML | Aliya Rahmania |
+| 3.3 | Bug Fixing | Felicia Natania |
 
 ## Retrospective 
 
