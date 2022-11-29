@@ -21,7 +21,11 @@
 | 2.5 | Membuat logic kemenangan | Adinda Salsabila |
 | 2.6 | Membuat logic menginput username | Felicia Natania |
 | 2.7 | Membuat logic leaderboard | Aliya Rahmania |
-| 2.8 | Membuat leaderboard | Aliya Rahmaniaa |
+| 2.8 | Membuat leaderboard | Aliya Rahmania |
+| 2.9 | Membuat menu utama | Felicia Natania |
+| 3.1 | Merapikan UI Board | Adinda Salsabila |
+| 3.2 | Membuat UML | Aliya Rahmania |
+| 3.3 | Bug Fixing | Felicia Natania |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
