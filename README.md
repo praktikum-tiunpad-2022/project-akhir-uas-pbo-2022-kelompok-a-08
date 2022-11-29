@@ -31,9 +31,12 @@ Tic-tac-toe adalah permainan untuk dua pemain, X dan O, yang bergiliran menandai
    - Membuat logic menginput username
    - Membuat logic leaderboard
    - Membuat leaderboard
+   - Membuat menu utama
    
 - **[Sprint 3](changelog/sprint-3.md) - (29/11/2021 - 05/12/2021)** 
-   - 
+   - Merapikan UI Board
+   - Membuat UML
+   - Bug Fixing
 
 ## Running The App
 
