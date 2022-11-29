@@ -27,6 +27,7 @@
 | 2.6 | Membuat logic menginput username | Felicia Natania | FAILED |
 | 2.7 | Membuat logic leaderboard | Aliya Rahmania | FAILED |
 | 2.8 | Membuat leaderboard | Aliya Rahmania | FAILED |
+| 2.9 | Membuat menu utama | Felicia Natania | DONE |
 
 ## Retrospective 
 
@@ -35,8 +36,11 @@ Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian t
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 3.1 | Membuat logic memilih board untuk User | Felicia Natania | 
-| 3.2 | Membuat logic kemenangan | Adinda Salsabila | 
-| 3.3 | Membuat logic menginput username | Felicia Natania |
-| 3.4 | Membuat logic leaderboard | Aliya Rahmania |
-| 3.5 | Membuat leaderboard | Aliya Rahmania |
+| 2.3 | Membuat logic memilih board untuk User | Felicia Natania | 
+| 2.5 | Membuat logic kemenangan | Adinda Salsabila | 
+| 2.6 | Membuat logic menginput username | Felicia Natania |
+| 2.7 | Membuat logic leaderboard | Aliya Rahmania |
+| 2.8 | Membuat leaderboard | Aliya Rahmania |
+| 3.1 | Merapikan UI Board | Adinda Salsabila |
+| 3.2 | Membuat UML | Aliya Rahmania |
+| 3.3 | Bug Fixing | Felicia Natania |
