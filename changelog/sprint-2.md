@@ -4,8 +4,8 @@
 ## Team Project-UAS
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810210007  | Felicia Natania |
 | 140810210005  | Aliya Rahmania |
+| 140810210007  | Felicia Natania Lingga |
 | 140810210017  | Adinda Salsabila |
 
 ## Sprint Overview
@@ -31,7 +31,10 @@
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas.
+Sudah lebih memahami konsep sprint.
+Progress minggu ini sudah lebih baik dari sprint-1 minggu lalu. 
+Belum mengimplementasikan penggunaan project board untuk manajemen sprint, namun tetap berkomunikasi dengan baik menggunakan group chat
+Kedepannya dibiasakan untuk tidak mengerjakan secara deadline.
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
