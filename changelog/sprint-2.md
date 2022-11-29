@@ -1,17 +1,17 @@
 # Scrum Report (Sprint 2)
 | From 22/11/2021 To 28/11/2021
 
-## Team (Insert your name)
+## Team Project-UAS
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810210007  | Felicia     |
-| 140810210005  | Aliya R     |
-| 140810210017  | Adinda      |
+| 140810210007  | Felicia Natania |
+| 140810210005  | Aliya Rahmania |
+| 140810210017  | Adinda Salsabila |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 10            | 5             |
+| 11            | 6             |
 
 ## Sprint 2 Backlog
 
