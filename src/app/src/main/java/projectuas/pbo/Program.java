@@ -58,7 +58,6 @@ public class Program implements Initializable, Interface {
     @FXML
     private Text turn;
 
-    // Buat Logout
     Stage stage;
 
     private int playerTurn = 0;
@@ -76,6 +75,21 @@ public class Program implements Initializable, Interface {
             setupButton(button);
             button.setFocusTraversable(false);
         });
+    }
+
+    @Override
+    public void setPlayerSymbol(Button btn) {
+        if (playerTurn % 2 == 0) {
+            // text X
+            turn.setText("PLAYER O");
+            btn.setText("X");
+            playerTurn = 1;
+        } else {
+            // text O
+            turn.setText("PLAYER X");
+            btn.setText("O");
+            playerTurn = 0;
+        }
     }
 
     @FXML
@@ -98,21 +112,6 @@ public class Program implements Initializable, Interface {
             btn.setDisable(true);
             checkIfGameIsOver(btn);
         });
-    }
-
-    @Override
-    public void setPlayerSymbol(Button btn) {
-        if (playerTurn % 2 == 0) {
-            // text X
-            turn.setText("PLAYER O");
-            btn.setText("X");
-            playerTurn = 1;
-        } else {
-            // text O
-            turn.setText("PLAYER X");
-            btn.setText("O");
-            playerTurn = 0;
-        }
     }
 
     @Override
@@ -183,114 +182,114 @@ public class Program implements Initializable, Interface {
         }
 
         //seri
-            String line1 = button1.getText() + button2.getText() + button3.getText(); //horizontal
-            String line2 = button4.getText() + button5.getText() + button6.getText(); //horizontal
-            String line3 = button7.getText() + button8.getText() + button9.getText(); //horizontal
-                
-            // Tie
-            if (line1.equals("XOX")){
-                if (line2.equals("XOO")){
-                    if (line3.equals("OXX")) {
-                        text.setText("It's a Tie!");
+        String line1 = button1.getText() + button2.getText() + button3.getText(); //horizontal
+        String line2 = button4.getText() + button5.getText() + button6.getText(); //horizontal
+        String line3 = button7.getText() + button8.getText() + button9.getText(); //horizontal
+            
+        // Tie
+        if (line1.equals("XOX")){
+            if (line2.equals("XOO")){
+                if (line3.equals("OXX")) {
+                    text.setText("It's a Tie!");
 
-                        Alert alert = new Alert(AlertType.WARNING);
-                        alert.setTitle("NOTIFICATION");
-                        alert.setHeaderText("IT'S A TIE!");
+                    Alert alert = new Alert(AlertType.WARNING);
+                    alert.setTitle("NOTIFICATION");
+                    alert.setHeaderText("IT'S A TIE!");
 
-                        // Untuk keluar Program
-                        if (alert.showAndWait().get() == ButtonType.OK) {
-                            buttons.forEach(this::resetButton);
-                            playerTurn = 0;
-                            text.setText("Tic-Tac-Toe");
-                            turn.setText("PLAYER X");
-                        } 
-                        else {
-                            buttons.forEach(this::resetButton);   
-                        }
-                    }
-                }
-                if (line3.equals("OXO")){
-                    if (line2.equals("OXX")) {
-                        text.setText("It's a Tie!");
-
-                        Alert alert = new Alert(AlertType.WARNING);
-                        alert.setTitle("NOTIFICATION");
-                        alert.setHeaderText("IT'S A TIE!");
-
-                        // Untuk keluar Program
-                        if (alert.showAndWait().get() == ButtonType.OK) {
-                            buttons.forEach(this::resetButton);
-                            playerTurn = 0;
-                            text.setText("Tic-Tac-Toe");
-                            turn.setText("PLAYER X");
-                        } 
-                        else {
-                            buttons.forEach(this::resetButton);   
-                        }
-                    }
-                    if  (line2.equals("XXO")) {
-                        text.setText("It's a Tie!");
-
-                        Alert alert = new Alert(AlertType.WARNING);
-                        alert.setTitle("NOTIFICATION");
-                        alert.setHeaderText("IT'S A TIE!");
-
-                        // Untuk keluar Program
-                        if (alert.showAndWait().get() == ButtonType.OK) {
-                            buttons.forEach(this::resetButton);
-                            playerTurn = 0;
-                            text.setText("Tic-Tac-Toe");
-                            turn.setText("PLAYER X");
-                        } 
-                        else {
-                            buttons.forEach(this::resetButton);   
-                        }
-                    }
-                }
-                if (line3.equals("XXO")){
-                    if (line2.equals("OOX")) {
-                        text.setText("It's a Tie!");
-
-                        Alert alert = new Alert(AlertType.WARNING);
-                        alert.setTitle("NOTIFICATION");
-                        alert.setHeaderText("IT'S A TIE!");
-
-                        // Untuk keluar Program
-                        if (alert.showAndWait().get() == ButtonType.OK) {
-                            buttons.forEach(this::resetButton);
-                            playerTurn = 0;
-                            text.setText("Tic-Tac-Toe");
-                            turn.setText("PLAYER X");
-                        } 
-                        else {
-                            buttons.forEach(this::resetButton);   
-                        }
+                    // Untuk keluar Program
+                    if (alert.showAndWait().get() == ButtonType.OK) {
+                        buttons.forEach(this::resetButton);
+                        playerTurn = 0;
+                        text.setText("Tic-Tac-Toe");
+                        turn.setText("PLAYER X");
+                    } 
+                    else {
+                        buttons.forEach(this::resetButton);   
                     }
                 }
             }
-            if (line3.equals("XOX")){
-                if (line2.equals("OOX")){
-                    if (line1.equals("XXO")) {
-                        text.setText("It's a Tie!");
+            if (line3.equals("OXO")){
+                if (line2.equals("OXX")) {
+                    text.setText("It's a Tie!");
 
-                        Alert alert = new Alert(AlertType.WARNING);
-                        alert.setTitle("NOTIFICATION");
-                        alert.setHeaderText("IT'S A TIE!");
+                    Alert alert = new Alert(AlertType.WARNING);
+                    alert.setTitle("NOTIFICATION");
+                    alert.setHeaderText("IT'S A TIE!");
 
-                        // Untuk keluar Program
-                        if (alert.showAndWait().get() == ButtonType.OK) {
-                            buttons.forEach(this::resetButton);
-                            playerTurn = 0;
-                            text.setText("Tic-Tac-Toe");
-                            turn.setText("PLAYER X");
-                        } 
-                        else {
-                            buttons.forEach(this::resetButton);   
-                        }
+                    // Untuk keluar Program
+                    if (alert.showAndWait().get() == ButtonType.OK) {
+                        buttons.forEach(this::resetButton);
+                        playerTurn = 0;
+                        text.setText("Tic-Tac-Toe");
+                        turn.setText("PLAYER X");
+                    } 
+                    else {
+                        buttons.forEach(this::resetButton);   
+                    }
+                }
+                if  (line2.equals("XXO")) {
+                    text.setText("It's a Tie!");
+
+                    Alert alert = new Alert(AlertType.WARNING);
+                    alert.setTitle("NOTIFICATION");
+                    alert.setHeaderText("IT'S A TIE!");
+
+                    // Untuk keluar Program
+                    if (alert.showAndWait().get() == ButtonType.OK) {
+                        buttons.forEach(this::resetButton);
+                        playerTurn = 0;
+                        text.setText("Tic-Tac-Toe");
+                        turn.setText("PLAYER X");
+                    } 
+                    else {
+                        buttons.forEach(this::resetButton);   
+                    }
+                }
+            }
+            if (line3.equals("XXO")){
+                if (line2.equals("OOX")) {
+                    text.setText("It's a Tie!");
+
+                    Alert alert = new Alert(AlertType.WARNING);
+                    alert.setTitle("NOTIFICATION");
+                    alert.setHeaderText("IT'S A TIE!");
+
+                    // Untuk keluar Program
+                    if (alert.showAndWait().get() == ButtonType.OK) {
+                        buttons.forEach(this::resetButton);
+                        playerTurn = 0;
+                        text.setText("Tic-Tac-Toe");
+                        turn.setText("PLAYER X");
+                    } 
+                    else {
+                        buttons.forEach(this::resetButton);   
                     }
                 }
             }
         }
+        if (line3.equals("XOX")){
+            if (line2.equals("OOX")){
+                if (line1.equals("XXO")) {
+                    text.setText("It's a Tie!");
+
+                    Alert alert = new Alert(AlertType.WARNING);
+                    alert.setTitle("NOTIFICATION");
+                    alert.setHeaderText("IT'S A TIE!");
+
+                    // Untuk keluar Program
+                    if (alert.showAndWait().get() == ButtonType.OK) {
+                        buttons.forEach(this::resetButton);
+                        playerTurn = 0;
+                        text.setText("Tic-Tac-Toe");
+                        turn.setText("PLAYER X");
+                    } 
+                    else {
+                        buttons.forEach(this::resetButton);   
+                    }
+                }
+            }
+        }
+    }
     
 
     @Override
@@ -302,7 +301,7 @@ public class Program implements Initializable, Interface {
         }
     }
 
-    // Method Buat Logout
+    //Exit
     @Override
     public void exitApp(ActionEvent evt) {
         Alert alert = new Alert(AlertType.CONFIRMATION);
