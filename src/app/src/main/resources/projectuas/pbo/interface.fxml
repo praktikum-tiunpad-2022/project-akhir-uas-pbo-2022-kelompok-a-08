@@ -91,7 +91,7 @@
          </font></Button>
       <Text fx:id="text" fill="#FDFCE5" fontSmoothingType="LCD" layoutX="128.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-blend-mode: #FFFFFF;" text="TicTacToe" textAlignment="CENTER" wrappingWidth="170.93669891357422">
          <font>
-            <Font name="Courier New Bold" size="30.0" />
+            <Font name="Times New Roman Bold" size="30.0" />
          </font>
       </Text>
       <Text fill="#FDFCE5" layoutX="162.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYER X" wrappingWidth="70.39999999999986" />
