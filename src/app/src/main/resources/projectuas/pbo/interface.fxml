@@ -4,12 +4,13 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane fx:id="anchorPane" prefHeight="493.0" prefWidth="426.0" style="-fx-background-color: #5B6D5B;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectuas.pbo.Program">
    <children>
-      <FlowPane layoutX="102.0" layoutY="98.0" prefHeight="221.0" prefWidth="222.0">
+      <FlowPane layoutX="27.0" layoutY="118.0" prefHeight="221.0" prefWidth="222.0">
          <children>
             <Button fx:id="button1" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #D3E4CD;" textFill="#5B6D5B">
                <FlowPane.margin>
@@ -85,7 +86,7 @@
             </Button>
          </children>
       </FlowPane>
-      <Button fx:id="button" layoutX="142.0" layoutY="407.0" onAction="#restartGame" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: #E2F3F4;" text="RESTART" textAlignment="CENTER" textFill="#5B6D5B">
+      <Button fx:id="button" layoutX="110.0" layoutY="381.0" onAction="#restartGame" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: #E2F3F4;" text="RESTART" textAlignment="CENTER" textFill="#5B6D5B">
          <font>
             <Font name="Consolas" size="12.0" />
          </font></Button>
@@ -94,18 +95,27 @@
             <Font name="Times New Roman Bold" size="30.0" />
          </font>
       </Text>
-      <Text fill="#FDFCE5" layoutX="162.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYER X" wrappingWidth="70.39999999999986" />
-      <Text fill="#FDFCE5" layoutX="162.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYER O" wrappingWidth="70.39999999999986" />
-      <Button layoutX="223.0" layoutY="407.0" mnemonicParsing="false" onAction="#exitApp" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: #E2F3F4;" text="EXIT" textAlignment="CENTER" textFill="#5B6D5B">
+      <Text fill="#FDFCE5" layoutX="270.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYER X :" wrappingWidth="70.39999999999986">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font></Text>
+      <Text fill="#FDFCE5" layoutX="270.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYER O :" wrappingWidth="70.39999999999986">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font></Text>
+      <Button layoutX="253.0" layoutY="381.0" mnemonicParsing="false" onAction="#exitApp" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: #E2F3F4;" text="EXIT" textAlignment="CENTER" textFill="#5B6D5B">
          <font>
             <Font name="Consolas" size="12.0" />
          </font></Button>
-      <Text fx:id="scoreX" fill="#FDFCE5" layoutX="233.0" layoutY="353.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="70.39999999999986" />
-      <Text fx:id="scoreO" fill="#FDFCE5" layoutX="233.0" layoutY="388.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="70.39999999999986" />
-      <FlowPane layoutX="162.0" layoutY="68.0" prefHeight="18.0" prefWidth="122.0">
+      <Text fx:id="scoreX" fill="#FDFCE5" layoutX="341.0" layoutY="216.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="70.39999999999986" />
+      <Text fx:id="scoreO" fill="#FDFCE5" layoutX="341.0" layoutY="251.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="70.39999999999986" />
+      <FlowPane layoutX="270.0" layoutY="143.0" prefHeight="18.0" prefWidth="122.0">
          <children>
-            <Text fill="#FDFCE5" strokeType="OUTSIDE" strokeWidth="0.0" text="TURN :" wrappingWidth="37.600012207031114" />
-            <Text fx:id="turn" fill="#FDFCE5" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYER X" wrappingWidth="66.39999999999986">
+            <Text fill="#FDFCE5" strokeType="OUTSIDE" strokeWidth="0.0" text="TURN :" wrappingWidth="47.600012207031114">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font></Text>
+            <Text fx:id="turn" fill="#FDFCE5" strokeType="OUTSIDE" strokeWidth="0.0" text="PLAYER X" wrappingWidth="57.73331680297838">
                <FlowPane.margin>
                   <Insets left="15.0" />
                </FlowPane.margin>
@@ -116,5 +126,6 @@
          <font>
             <Font name="Times New Roman" size="12.0" />
          </font></Text>
+      <Line endX="100.0" layoutX="213.0" layoutY="58.0" startX="-100.0" stroke="#fffccc" />
    </children>
 </AnchorPane>
