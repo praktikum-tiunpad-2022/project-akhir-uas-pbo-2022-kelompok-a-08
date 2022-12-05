@@ -15,7 +15,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.layout.AnchorPane;
 import java.util.Arrays;
 
-public class Controller implements Initializable, Interface {
+public class Program implements Initializable, Interface {
     @FXML
     private AnchorPane anchorPane;
 

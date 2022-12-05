@@ -14,7 +14,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("tampilan.fxml")));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("interface.fxml")));
         Scene scene = new Scene(root);
 
         stage.setScene(scene);
