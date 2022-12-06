@@ -102,14 +102,14 @@ public class Program implements Initializable, Interface {
 
     @Override
     public void resetButton(Button btn) {
-        btn.setDisable(false);
+        btn.setDisable(false); //papan yg sudah terisi bisa kosong lagi
         btn.setText("");
     }
 
     private void setupButton(Button btn) {
         btn.setOnMouseClicked(MouseEvent -> {
             setPlayerSymbol(btn);
-            btn.setDisable(true);
+            btn.setDisable(true); //papan yg sudah terisi tidak bisa diisi dengan yang lain
             checkIfGameIsOver(btn);
         });
     }
