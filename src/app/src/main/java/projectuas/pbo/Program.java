@@ -389,16 +389,6 @@ public class Program implements Initializable, Interface {
             }
         }
     }
-    
-
-    @Override
-    public void delay() {
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            System.out.println("Thread Interrupted");
-        }
-    }
 
     //Exit
     @Override
@@ -410,7 +400,6 @@ public class Program implements Initializable, Interface {
         // Untuk keluar Program
         if (alert.showAndWait().get() == ButtonType.OK) {
             stage = (Stage) anchorPane.getScene().getWindow();
-            delay();
             stage.close();
         }
     }
