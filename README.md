@@ -47,7 +47,8 @@ Tic-tac-toe adalah permainan untuk dua pemain, X dan O, yang bergiliran menandai
 
 TO;DO
 
-UML image here
+![UML project UAS](https://user-images.githubusercontent.com/100197250/205794489-bf385fb7-c072-4680-803b-fc3a4c54c93a.png)
+
 
 ## Notable Assumption and Design App Details
 
