@@ -23,9 +23,9 @@
 
 ## Retrospective 
 
-Belum terlalu memahami konsep Sprint, masih banyak yang harus dikerjakan dan dipelajari.
-Kurangnya waktu untuk mengerjakan project dikarenakan banyaknya kesibukan masing-masing anggota.
-Belum mengimplementasikan penggunaan project board untuk manajemen sprint
+Belum terlalu memahami konsep Sprint, masih banyak yang harus dikerjakan dan dipelajari.  
+Kurangnya waktu untuk mengerjakan project dikarenakan banyaknya kesibukan masing-masing anggota.  
+Belum mengimplementasikan penggunaan project board untuk manajemen sprint. 
 
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
