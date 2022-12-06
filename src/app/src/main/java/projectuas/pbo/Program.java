@@ -102,14 +102,14 @@ public class Program implements Initializable, Interface {
 
     @Override
     public void resetButton(Button btn) {
-        btn.setDisable(false);
+        btn.setDisable(false); //papan yg sudah terisi bisa kosong lagi
         btn.setText("");
     }
 
     private void setupButton(Button btn) {
         btn.setOnMouseClicked(MouseEvent -> {
             setPlayerSymbol(btn);
-            btn.setDisable(true);
+            btn.setDisable(true); //papan yg sudah terisi tidak bisa diisi dengan yang lain
             checkIfGameIsOver(btn);
         });
     }
@@ -389,16 +389,6 @@ public class Program implements Initializable, Interface {
             }
         }
     }
-    
-
-    @Override
-    public void delay() {
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            System.out.println("Thread Interrupted");
-        }
-    }
 
     //Exit
     @Override
@@ -410,7 +400,6 @@ public class Program implements Initializable, Interface {
         // Untuk keluar Program
         if (alert.showAndWait().get() == ButtonType.OK) {
             stage = (Stage) anchorPane.getScene().getWindow();
-            delay();
             stage.close();
         }
     }
