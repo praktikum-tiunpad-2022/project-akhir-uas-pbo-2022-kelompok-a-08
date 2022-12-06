@@ -40,7 +40,8 @@ Tic-tac-toe adalah permainan untuk dua pemain, X dan O, yang bergiliran menandai
 
 ## Running The App
 
-TO;DO with steps
+1. Git clone repository, dan buka di VSCode (Pastikan JavaFX telah terinstall)
+2. Buka terminal dan ketik "gradlew run" lalu enter
 
 ## Classes Used
 
