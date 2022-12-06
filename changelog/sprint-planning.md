@@ -25,7 +25,8 @@
 | 2.9 | Membuat menu utama | Felicia Natania |
 | 3.1 | Merapikan UI Board | Adinda Salsabila |
 | 3.2 | Membuat UML | Aliya Rahmania |
-| 3.3 | Bug Fixing | Felicia Natania |
+ 3.3 | Membuat logic Tie (Game Draw) | 
+| 3.4 | Bug Fixing |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
