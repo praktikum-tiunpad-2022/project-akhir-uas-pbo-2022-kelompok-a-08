@@ -41,21 +41,25 @@ Tic-tac-toe adalah permainan untuk dua pemain, X dan O, yang bergiliran menandai
 
 ## Running The App
 
-1. Git clone repository, dan buka di VSCode (Pastikan Java dan JavaFX telah terinstall)
-2. Buka terminal dan ketik `cd src` kemudian ketik `gradlew run` lalu klik enter
+1. Git clone repository, dan buka di VSCode (Pastikan Java dan JavaFX telah terinstall)   
+2. Buka terminal dan ketik `cd src` kemudian ketik `./gradlew run` lalu klik enter 
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/100121123/205812425-87045e8c-d18e-4dbb-95c9-e57d4cdc58c5.png">
+
 atau bisa juga dengan   
-1. Git clone repository
-2. Buka folder yang telah di-clone tadi, kemudian masuk ke direktori src 
-3. Buka command prompt dari direktori src, lalu ketik `gradlew run`
+1. Git clone repository 
+![image](https://user-images.githubusercontent.com/100121123/205812509-8eaf36bb-b085-40fe-9a81-731baab11e89.png)
+2. Buka folder yang telah di-clone tadi, kemudian masuk ke direktori src   
+![image](https://user-images.githubusercontent.com/100121123/205812578-c17c59ab-ef81-4933-ab84-f373619f6b5d.png)
+3. Buka command prompt dari direktori src, lalu ketik `gradlew run`  
+![image](https://user-images.githubusercontent.com/100121123/205812894-7d82eafc-3e6a-4b57-91d6-c49ad40d40c4.png)
+
 
 ## Classes Used
 
 1. Program (Program.Java)
 Berisi kode logic program TicTacToe seperti inisialisasi game, set Symbol pemain, restart game, reset Button, setupButton, game, dan exit.
-
 2. App (App.Java)
 Class main untuk memanggil .fxml
-
 3. Interface (Interface.Java)
 Interface untuk mengganti simbol Player ketika board diklik, mengosongkan board ketika Reset Button diklik, mengecheck kemenangan dan game draw, dan keluar dari GUI ketika Exit Button diklik
 
