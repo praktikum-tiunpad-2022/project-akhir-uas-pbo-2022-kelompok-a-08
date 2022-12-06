@@ -32,10 +32,10 @@
 ## Retrospective 
 
 Sudah lebih memahami konsep sprint.
-Progress minggu ini sudah lebih baik dari sprint-1 minggu lalu. 
-Sudah merencanakan sprint-3 (mungkin akan ditambah lagi bila diperlukan).
-Belum mengimplementasikan penggunaan project board untuk manajemen sprint, namun tetap berkomunikasi dengan baik menggunakan group chat.
-Kedepannya dibiasakan untuk tidak mengerjakan secara deadline.
+Progress minggu ini sudah lebih baik dari sprint-1 minggu lalu.   
+Sudah merencanakan sprint-3 (mungkin akan ditambah lagi bila diperlukan). 
+Belum mengimplementasikan penggunaan project board untuk manajemen sprint, namun tetap berkomunikasi dengan baik menggunakan group chat.  
+Kedepannya dibiasakan untuk tidak mengerjakan secara deadline.  
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
