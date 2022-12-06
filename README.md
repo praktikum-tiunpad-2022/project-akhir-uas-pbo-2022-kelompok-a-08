@@ -59,4 +59,13 @@ Interface untuk Delay, Reset Button, dan ExitApp
 
 ## Notable Assumption and Design App Details
 
-TO;DO
+- Pemain mengisi kotak permainan berukuran 3 x 3, dimana pemain X akan memulai permainan terlebih dahulu.
+- Setelah pemain X mengisi papan permainan, maka akan ada petunjuk giliran untuk pemain O, begitupun setelah pemain O mengisi papan permainan. 
+- Pemain dinyatakan menang jika berhasil membentuk 1 garis dengan huruf yang sama, baik berupa garis horizontal, vertikal, atau diagonal.
+- Kemenangan ditandai dengan munculnya notifikasi kemenangan. 
+- Apabila pemain telah menekan tombol “OK” pada notifikasi kemenangan, kotak permainan akan ter-reset/terbersihkan secara otomatis.
+- Jika kotak permainan sudah terisi penuh dan tidak ada satupun garis yang terbentuk, akan muncul notifikasi seri. 
+- Apabila pemain telah menekan tombol “OK” pada notifikasi seri, kotak permainan akan ter-reset/terbersihkan secara otomatis.
+- Terdapat tombol “Restart” apabila pada pertengahan permainan, pemain ingin mengulang permainan.
+- Terdapat Papan Score Kemenangan baik dari Pemain X maupun Pemain O.
+- Terdapat Tombol Menu untuk kembali ke Main Menu dan Tombol Exit untuk mengakhiri dan keluar dari permainan.
