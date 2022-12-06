@@ -11,20 +11,20 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 8             | 7             |
 
 ## Sprint 3 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 2.3 | Membuat logic memilih board untuk User | Felicia Natania | 
-| 2.5 | Membuat logic kemenangan | Adinda Salsabila | 
-| 2.6 | Membuat logic menginput username | Felicia Natania |
-| 2.7 | Membuat logic leaderboard | Aliya Rahmania |
-| 2.8 | Membuat leaderboard | Aliya Rahmania |
-| 3.1 | Merapikan UI Board | Adinda Salsabila |
-| 3.2 | Membuat UML | Aliya Rahmania |
-| 3.3 | Bug Fixing | Felicia Natania |
+| 2.3 | Membuat logic memilih board untuk User | Felicia Natania | DONE |
+| 2.5 | Membuat logic kemenangan | Adinda Salsabila | DONE |
+| 2.6 | Membuat logic menginput username | Felicia Natania | FAILED |
+| 2.7 | Membuat logic leaderboard | Aliya Rahmania | DONE |
+| 2.8 | Membuat leaderboard | Aliya Rahmania | DONE |
+| 3.1 | Merapikan UI Board | Adinda Salsabila | DONE |
+| 3.2 | Membuat UML | Aliya Rahmania | DONE |
+| 3.3 | Bug Fixing | Felicia Natania | DONE |
 
 ## Retrospective 
 

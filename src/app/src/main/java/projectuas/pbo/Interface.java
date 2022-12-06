@@ -14,5 +14,4 @@ interface Interface {
     public void checkIfGameIsOver(Button btn);
 
     public void setPlayerSymbol(Button btn);
-
 }
