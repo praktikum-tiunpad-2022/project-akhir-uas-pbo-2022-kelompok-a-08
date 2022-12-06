@@ -68,4 +68,4 @@ Interface untuk Delay, Reset Button, dan ExitApp
 - Apabila pemain telah menekan tombol “OK” pada notifikasi seri, kotak permainan akan ter-reset/terbersihkan secara otomatis.
 - Terdapat tombol “Restart” apabila pada pertengahan permainan, pemain ingin mengulang permainan.
 - Terdapat Papan Score Kemenangan baik dari Pemain X maupun Pemain O.
-- Terdapat Tombol Menu untuk kembali ke Main Menu dan Tombol Exit untuk mengakhiri dan keluar dari permainan.
+- Terdapat Tombol Exit untuk mengakhiri dan keluar dari permainan.
