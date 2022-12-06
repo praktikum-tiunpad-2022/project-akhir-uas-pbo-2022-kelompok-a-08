@@ -45,7 +45,14 @@ Tic-tac-toe adalah permainan untuk dua pemain, X dan O, yang bergiliran menandai
 
 ## Classes Used
 
-TO;DO
+1. Program (Program.Java)
+Berisi kode logic program TicTacToe seperti inisialisasi game, set Symbol pemain, restart game, reset Button, setupButton, game, dan exit.
+
+2. App (App.Java)
+Class main untuk memanggil .fxml
+
+3. Interface (Interface.Java)
+Interface untuk Delay, Reset Button, dan ExitApp
 
 ![UML project UAS](https://user-images.githubusercontent.com/100197250/205794489-bf385fb7-c072-4680-803b-fc3a4c54c93a.png)
 
