@@ -49,7 +49,7 @@ atau bisa juga dengan
 1. Git clone repository 
 ![image](https://user-images.githubusercontent.com/100121123/205812509-8eaf36bb-b085-40fe-9a81-731baab11e89.png)
 2. Buka folder yang telah di-clone tadi, kemudian masuk ke direktori src   
-![image](https://user-images.githubusercontent.com/100121123/205812578-c17c59ab-ef81-4933-ab84-f373619f6b5d.png)
+![image](https://user-images.githubusercontent.com/100121123/205813123-80cb8237-a782-4e14-a3ab-70232a885f44.png)
 3. Buka command prompt dari direktori src, lalu ketik `gradlew run`  
 ![image](https://user-images.githubusercontent.com/100121123/205812894-7d82eafc-3e6a-4b57-91d6-c49ad40d40c4.png)
 
