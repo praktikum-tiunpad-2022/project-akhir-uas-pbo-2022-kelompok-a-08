@@ -366,6 +366,28 @@ public class Program implements Initializable, Interface {
             }
 
         }
+        if (line3.equals("OXX")){
+            if (line2.equals("XXO")){
+                if (line1.equals("OOX")) {
+                    text.setText("It's a Tie!");
+
+                    Alert alert = new Alert(AlertType.WARNING);
+                    alert.setTitle("NOTIFICATION");
+                    alert.setHeaderText("IT'S A TIE!");
+
+                    // Untuk keluar Program
+                    if (alert.showAndWait().get() == ButtonType.OK) {
+                        buttons.forEach(this::resetButton);
+                        playerTurn = 0;
+                        text.setText("Tic-Tac-Toe");
+                        turn.setText("PLAYER X");
+                    } 
+                    else {
+                        buttons.forEach(this::resetButton);   
+                    }
+                }
+            }
+        }
     }
     
 
