@@ -36,12 +36,17 @@ Tic-tac-toe adalah permainan untuk dua pemain, X dan O, yang bergiliran menandai
 - **[Sprint 3](changelog/sprint-3.md) - (29/11/2021 - 05/12/2021)** 
    - Merapikan UI Board
    - Membuat UML
+   - Membuat logic Tie (Game Draw)
    - Bug Fixing
 
 ## Running The App
 
-1. Git clone repository, dan buka di VSCode (Pastikan JavaFX telah terinstall)
-2. Buka terminal dan ketik "gradlew run" lalu enter
+1. Git clone repository, dan buka di VSCode (Pastikan Java dan JavaFX telah terinstall)
+2. Buka terminal dan ketik `cd src` kemudian ketik `gradlew run` lalu klik enter
+atau bisa juga dengan   
+1. Git clone repository
+2. Buka folder yang telah di-clone tadi, kemudian masuk ke direktori src 
+3. Buka command prompt dari direktori src, lalu ketik `gradlew run`
 
 ## Classes Used
 
@@ -52,7 +57,7 @@ Berisi kode logic program TicTacToe seperti inisialisasi game, set Symbol pemain
 Class main untuk memanggil .fxml
 
 3. Interface (Interface.Java)
-Interface untuk Delay, Reset Button, dan ExitApp
+Interface untuk mengganti simbol Player ketika board diklik, mengosongkan board ketika Reset Button diklik, mengecheck kemenangan dan game draw, dan keluar dari GUI ketika Exit Button diklik
 
 ![UML project UAS](https://user-images.githubusercontent.com/100197250/205794489-bf385fb7-c072-4680-803b-fc3a4c54c93a.png)
 
@@ -60,12 +65,12 @@ Interface untuk Delay, Reset Button, dan ExitApp
 ## Notable Assumption and Design App Details
 
 - Pemain mengisi kotak permainan berukuran 3 x 3, dimana pemain X akan memulai permainan terlebih dahulu.
-- Setelah pemain X mengisi papan permainan, maka akan ada petunjuk giliran untuk pemain O, begitupun setelah pemain O mengisi papan permainan. 
-- Pemain dinyatakan menang jika berhasil membentuk 1 garis dengan huruf yang sama, baik berupa garis horizontal, vertikal, atau diagonal.
-- Kemenangan ditandai dengan munculnya notifikasi kemenangan. 
-- Apabila pemain telah menekan tombol “OK” pada notifikasi kemenangan, kotak permainan akan ter-reset/terbersihkan secara otomatis.
-- Jika kotak permainan sudah terisi penuh dan tidak ada satupun garis yang terbentuk, akan muncul notifikasi seri. 
-- Apabila pemain telah menekan tombol “OK” pada notifikasi seri, kotak permainan akan ter-reset/terbersihkan secara otomatis.
-- Terdapat tombol “Restart” apabila pada pertengahan permainan, pemain ingin mengulang permainan.
-- Terdapat Papan Score Kemenangan baik dari Pemain X maupun Pemain O.
+- Setelah pemain X mengisi papan permainan, maka akan ada petunjuk giliran untuk pemain O, begitupun setelah pemain O mengisi papan permainan.
+- Untuk mengisi board hanya dapat menggunakan mouse-click saja.
+- Pemain dinyatakan menang jika berhasil membentuk 1 garis dengan simbol yang sama, baik secara horizontal, vertikal, maupun diagonal.
+- Kemenangan ditandai dengan muncul window notifikasi kemenangan. Apabila pemain telah menekan tombol “OK” pada notifikasi kemenangan, board akan otomatis ter-reset dan data kemenangan masuk ke leaderboard.
+- Terdapat tombol Reset yang memungkinkan pemain untuk mengulang di tengah-tengah permainan, tetapi tidak akan me-reset leaderboard.
+- Jika kotak permainan sudah terisi penuh dan tidak ada satupun garis yang terbentuk, maka akan muncul window notifikasi bahwa permainan berakhir seri (Tie / Draw). Apabila pemain telah menekan tombol “OK” pada notifikasi seri, board akan otomatis ter-reset dan tidak ada data kemenangan masuk ke leaderboard.
+- Terdapat Leaderboard Kemenangan baik dari Pemain X maupun Pemain O.
 - Terdapat Tombol Exit untuk mengakhiri dan keluar dari permainan.
+
